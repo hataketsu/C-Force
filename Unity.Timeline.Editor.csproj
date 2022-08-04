@@ -213,9 +213,9 @@
      <Compile Include="Library/PackageCache/com.unity.timeline@1.7.1/Editor/Utilities/TimeFormat.cs" />
      <Compile Include="Library/PackageCache/com.unity.timeline@1.7.1/Editor/State/SequencePath.cs" />
      <Compile Include="Library/PackageCache/com.unity.timeline@1.7.1/Editor/Actions/ClipAction.cs" />
-     <Compile Include="Library/PackageCache/com.unity.timeline@1.7.1/Editor/Animation/AnimationTrackActions.cs" />
      <Compile Include="Library/PackageCache/com.unity.timeline@1.7.1/Editor/Utilities/Graphics.cs" />
      <Compile Include="Library/PackageCache/com.unity.timeline@1.7.1/Editor/Recording/TimelineRecording_PlayableAsset.cs" />
+     <Compile Include="Library/PackageCache/com.unity.timeline@1.7.1/Editor/Animation/AnimationTrackActions.cs" />
      <Compile Include="Library/PackageCache/com.unity.timeline@1.7.1/Editor/treeview/TrackGui/InlineCurveEditor.cs" />
      <Compile Include="Library/PackageCache/com.unity.timeline@1.7.1/Editor/Utilities/SpacePartitioner.cs" />
      <Compile Include="Library/PackageCache/com.unity.timeline@1.7.1/Editor/inspectors/TimelineProjectSettings.cs" />
