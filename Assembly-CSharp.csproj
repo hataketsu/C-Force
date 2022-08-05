@@ -46,6 +46,7 @@
      <Compile Include="Assets/Scripts/BulletController.cs" />
      <Compile Include="Assets/Scripts/EnemyController.cs" />
      <Compile Include="Assets/Scripts/PlayerController.cs" />
+     <Compile Include="Assets/Camera.cs" />
      <Reference Include="UnityEngine">
      <HintPath>/home/hunganh/Unity/Hub/Editor/2022.1.11f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
      </Reference>

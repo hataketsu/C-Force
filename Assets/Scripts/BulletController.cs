@@ -1,28 +1,36 @@
 using System;
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class BulletController : MonoBehaviour
 {
     public GameObject explosionPrefab;
     public GameObject bigExplosionPrefab;
+    private float readyTime;
+
+    private void Start()
+    {
+        readyTime = Time.time + 0.03f;
+        Destroy(gameObject, 2f);
+    }
 
     private void OnTriggerEnter2D(Collider2D col)
     {
         Debug.Log("Bullet hit: " + col.gameObject.name);
-        if (col.gameObject.name == "Player" || col.gameObject.name == "Gunner")
+        if (readyTime > Time.time)
             return;
-        if (col.gameObject.name == "Objects")
+        switch (col.gameObject.name)
         {
-            Destroy(gameObject);
-            Instantiate(explosionPrefab, gameObject.transform.position, Quaternion.identity);
-        }
-        else
-        {
-            Destroy(col.gameObject);
-            Destroy(gameObject);
-            Instantiate(bigExplosionPrefab, col.gameObject.transform.position, Quaternion.identity);
+            case "FlatObjects":
+                return;
+            case "Objects":
+                Destroy(gameObject);
+                Instantiate(explosionPrefab, gameObject.transform.position, Quaternion.identity);
+                break;
+            default:
+                Destroy(col.gameObject);
+                Destroy(gameObject);
+                Instantiate(bigExplosionPrefab, col.gameObject.transform.position, Quaternion.identity);
+                break;
         }
     }
 }

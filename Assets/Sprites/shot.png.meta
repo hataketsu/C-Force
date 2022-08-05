@@ -253,13 +253,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: shot_3
+      name: shot_8
       rect:
         serializedVersion: 2
-        x: 0
-        y: 14
-        width: 7
-        height: 20
+        x: 24
+        y: 26
+        width: 8
+        height: 8
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -267,7 +267,70 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4c488fde2690753ce80047f2a6eef323
+      spriteID: f142b0f20d60afadbbc5a0e5e445fbd7
+      internalID: -109834910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shot_9
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 17
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49852c49b7138f2b9b64e639331c2f4e
+      internalID: 1231472497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shot_10
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 8
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c322726d15b271148268c0f77ed1428
+      internalID: 963348723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shot_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 14
+        width: 7
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd988c4a58365dd6583b5dcc0e406d1c
       internalID: 930723002
       vertices: []
       indices: 
@@ -284,15 +347,17 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      shot_8: -1444399103
-      shot_3: 930723002
+      shot_8: -109834910
+      shot_9: 1231472497
       shot_5: -1730632903
       shot_0: 1758200280
+      shot_10: 963348723
       shot_7: 720266328
       shot_2: -734120543
       shot_1: 1163141222
       shot_4: -1513762152
       shot_6: 1303602347
+      shot_12: 930723002
   spritePackingTag: 
   pSDRemoveMatte: 0
   userData: 
