@@ -44,16 +44,16 @@ public class EnemyController : MonoBehaviour
         switch (direction)
         {
             case Direction.Up:
-                bullet.GetComponent<Rigidbody2D>().velocity = Vector2.up*4;
+                bullet.GetComponent<Rigidbody2D>().velocity = Vector2.up * 10;
                 break;
             case Direction.Down:
-                bullet.GetComponent<Rigidbody2D>().velocity = Vector2.down*4;
+                bullet.GetComponent<Rigidbody2D>().velocity = Vector2.down * 10;
                 break;
             case Direction.Left:
-                bullet.GetComponent<Rigidbody2D>().velocity = Vector2.left*4;
+                bullet.GetComponent<Rigidbody2D>().velocity = Vector2.left * 10;
                 break;
             case Direction.Right:
-                bullet.GetComponent<Rigidbody2D>().velocity = Vector2.right*4;
+                bullet.GetComponent<Rigidbody2D>().velocity = Vector2.right * 10;
                 break;
         }
     }

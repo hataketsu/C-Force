@@ -5,9 +5,14 @@ using UnityEngine.Tilemaps;
 public class Destructible : MonoBehaviour
 {
     public Tilemap tilemap;
-
-    private void OnTriggerEnter2D(Collider2D col)
+    public GameObject eplosionPrefab;
+    private void OnTriggerStay2D(Collider2D col)
     {
-        Debug.Log("Destructible" + col.gameObject.name + " " + col.gameObject.tag);
+        if (col.gameObject.tag != "bullet") return;
+        var cellPosition  =tilemap.WorldToCell(col.transform.position) ;
+        var tile = tilemap.GetTile(cellPosition);
+        if (tile == null) return;
+        tilemap.SetTile(cellPosition, null);
+        Instantiate(eplosionPrefab, cellPosition + new Vector3(0.5f,0.5f,0), Quaternion.identity );
     }
 }

@@ -9,11 +9,11 @@ public class BulletController : MonoBehaviour
 
     private void Start()
     {
-        readyTime = Time.time + 0.03f;
+        readyTime = Time.time + 0.1f;
         Destroy(gameObject, 2f);
     }
 
-    private void OnTriggerEnter2D(Collider2D col)
+    private void OnTriggerStay2D(Collider2D col)
     {
         if (readyTime > Time.time)
             return;
