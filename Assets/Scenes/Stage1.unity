@@ -179,6 +179,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: EnemyTank (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 519424875059911582, guid: 2fa2cd478c1f4f1cb897f11c710dcaf4, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 2fa2cd478c1f4f1cb897f11c710dcaf4, type: 3}
@@ -237,6 +241,10 @@ PrefabInstance:
     - target: {fileID: 519424875059911582, guid: 2fa2cd478c1f4f1cb897f11c710dcaf4, type: 3}
       propertyPath: m_Name
       value: EnemyTank (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 519424875059911582, guid: 2fa2cd478c1f4f1cb897f11c710dcaf4, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -4850,6 +4858,7 @@ GameObject:
   - component: {fileID: 1663539957}
   - component: {fileID: 1663539956}
   - component: {fileID: 1663539958}
+  - component: {fileID: 1663539959}
   m_Layer: 0
   m_Name: Objects
   m_TagString: Untagged
@@ -5904,6 +5913,19 @@ TilemapCollider2D:
   m_MaximumTileChangeCount: 1000
   m_ExtrusionFactor: 0.00001
   m_UseDelaunayMesh: 0
+--- !u!114 &1663539959
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1663539954}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c45fa1121023e2e79b0a70b32bfa5e35, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tilemap: {fileID: 1663539957}
 --- !u!1 &1712997445
 GameObject:
   m_ObjectHideFlags: 0
@@ -7208,6 +7230,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: EnemyTank (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 519424875059911582, guid: 2fa2cd478c1f4f1cb897f11c710dcaf4, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 2fa2cd478c1f4f1cb897f11c710dcaf4, type: 3}
@@ -7266,6 +7292,10 @@ PrefabInstance:
     - target: {fileID: 519424875059911582, guid: 2fa2cd478c1f4f1cb897f11c710dcaf4, type: 3}
       propertyPath: m_Name
       value: EnemyTank
+      objectReference: {fileID: 0}
+    - target: {fileID: 519424875059911582, guid: 2fa2cd478c1f4f1cb897f11c710dcaf4, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []

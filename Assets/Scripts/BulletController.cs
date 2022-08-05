@@ -15,7 +15,6 @@ public class BulletController : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D col)
     {
-        Debug.Log("Bullet hit: " + col.gameObject.name);
         if (readyTime > Time.time)
             return;
         switch (col.gameObject.name)
